@@ -1,0 +1,32 @@
+:root {
+    /* Colors */
+    --color-bg: #ffffff;
+    --color-text: #111111;
+    --color-text-light: #444444;
+    /* Darker for better contrast on glass */
+    --color-accent: #3B82F6;
+    /* Vibrant Blue */
+    --color-accent-hover: #2563EB;
+    --color-border: rgba(255, 255, 255, 0.2);
+    --color-surface: rgba(255, 255, 255, 0.6);
+    /* Glassy surface */
+    --color-surface-hover: rgba(255, 255, 255, 0.8);
+    --bg-theme-sunrise: radial-gradient(circle at 15% 20%, #fff8e8 0%, #ffe3a1 40%, #ffc96b 70%, #f7b733 100%);
+    --bg-theme-amber: radial-gradient(circle at 80% 0%, #fff4d8 0%, #ffd594 45%, #ffb347 100%);
+    --bg-theme-honey: radial-gradient(circle at 25% 80%, #fff1cc 0%, #ffd070 45%, #f6a122 100%);
+    --bg-theme-saffron: radial-gradient(circle at 80% 20%, #fff7de 0%, #ffe0a3 50%, #ffb940 100%);
+    --bg-theme-marigold: radial-gradient(circle at 20% 0%, #fff2cf 0%, #ffd27a 50%, #f9a620 100%);
+    --bg-theme-citrine: radial-gradient(circle at 75% 25%, #fff8e0 0%, #ffe58f 45%, #ffbf3b 100%);
+    --bg-theme-sunset: radial-gradient(circle at 30% 10%, #fff3d6 0%, #ffce87 45%, #ff9d48 100%);
+
+    /* Typography */
+    --font-display: 'Space Grotesk', sans-serif;
+    --font-body: 'Inter', sans-serif;
+
+    /* Spacing */
+    --spacing-container: 1400px;
+    --spacing-gutter: 2rem;
+    --spacing-section: 6rem;
+
+    box-sizing: border-box;
+}
