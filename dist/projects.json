@@ -1,0 +1,30 @@
+{
+  "Interiors": [
+    {
+      "name": "Classic_Villa",
+      "thumbnail": "/resources/Interiors/Classic_Villa/image1.png",
+      "images": [
+        "/resources/Interiors/Classic_Villa/image1.png"
+      ]
+    }
+  ],
+  "Architecture": [
+    {
+      "name": "Modern_Office",
+      "thumbnail": "/resources/Architecture/Modern_Office/image1.png",
+      "images": [
+        "/resources/Architecture/Modern_Office/image1.png"
+      ]
+    }
+  ],
+  "Landscape": [
+    {
+      "name": "Zen_Garden",
+      "thumbnail": "/resources/Landscape/Zen_Garden/image1.png",
+      "images": [
+        "/resources/Landscape/Zen_Garden/image1.png",
+        "/resources/Landscape/Zen_Garden/thumbnail.png"
+      ]
+    }
+  ]
+}

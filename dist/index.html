@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THE CARVED SPACES |Architect Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+  <script type="module" crossorigin src="/assets/index-CA7v-XOA.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-C3FiRKvf.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="background-gradient" data-theme="sunrise">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+        </div>
+        <div class="cursor-dot"></div>
+        <div class="cursor-outline"></div>
+
+        <header class="site-header">
+            <div class="container header-inner">
+                <a href="#" class="logo">THE CARVED SPACES.</a>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#philosophy">Philosophy</a></li>
+                        <li><a href="#segments">Expertise</a></li>
+                        <li><a href="#projects">Work</a></li>
+                        <li><a href="#stories">Stories</a></li>
+                    </ul>
+                </nav>
+                <a href="#contact" class="btn btn-primary">Let's Talk</a>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                <button class="menu-toggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero" data-bg-theme="sunrise">
+                <div class="container">
+                    <h1 class="hero-title reveal-text">
+                        We carve <span class="highlight">spaces</span><br>
+                        for elegant experiences<br>
+                    </h1>
+                    <p class="hero-subtitle reveal-text delay-1">
+                        Specializing in Interiors, Architecture, and Landscape.
+                    </p>
+                </div>
+            </section>
+
+            <section id="philosophy" class="philosophy-section" data-bg-theme="amber">
+                <div class="container">
+                    <div class="philosophy-grid">
+                        <div class="philosophy-header reveal-up">
+                            <h2>Our Philosophy</h2>
+                        </div>
+                        <div class="philosophy-content reveal-up delay-1">
+                            <p class="lead">We are a human-centered design studio.</p>
+                            <p>We believe that great design is born from collaboration, curiosity, and a deep
+                                understanding of how people interact with space—both physical and digital.</p>
+                            <div class="tags">
+                                <span class="tag">Creative</span>
+                                <span class="tag">Collaborative</span>
+                                <span class="tag">Innovative</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="segments" class="segments-section" data-bg-theme="honey">
+                <div class="container">
+                    <h2 class="section-title reveal-up">Our Expertise</h2>
+                    <div class="segments-grid">
+                        <div class="segment-card reveal-up" data-segment="Interiors">
+                            <div class="segment-icon">01</div>
+                            <img class="segment-thumb" src="/resources/Interiors/thumbnail.png"
+                                alt="Interiors project thumbnail" loading="lazy" decoding="async">
+                            <h3>Interiors</h3>
+                            <p>Crafting immersive interior environments that tell a story and elevate the human
+                                experience.</p>
+                        </div>
+                        <div class="segment-card reveal-up delay-1" data-segment="Architecture">
+                            <div class="segment-icon">02</div>
+                            <img class="segment-thumb" src="/resources/Architecture/thumbnail.png"
+                                alt="Architecture project thumbnail" loading="lazy" decoding="async">
+                            <h3>Architecture</h3>
+                            <p>Designing sustainable, functional, and iconic structures that stand the test of time.</p>
+                        </div>
+                        <div class="segment-card reveal-up delay-2" data-segment="Landscape">
+                            <div class="segment-icon">03</div>
+                            <img class="segment-thumb" src="/resources/Landscape/thumbnail.png"
+                                alt="Landscape project thumbnail" loading="lazy" decoding="async">
+                            <h3>Landscape</h3>
+                            <p>Harmonizing nature and built forms to create breathable, living outdoor spaces.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="projects-section" data-bg-theme="saffron">
+                <div class="container">
+                    <div class="section-header reveal-up">
+                        <h2>Selected Works</h2>
+                        <a href="#" class="link-arrow">View All Projects</a>
+                    </div>
+                    <div class="project-list">
+                        <article class="project-item reveal-up">
+                            <div class="project-content">
+                                <span class="project-cat">Architecture</span>
+                                <h3>The Glass House</h3>
+                                <p>A modern residential masterpiece blending transparency with privacy.</p>
+                                <a href="#" class="btn-text">View Case Study</a>
+                            </div>
+                            <div class="project-visual">
+                                <div class="visual-inner"
+                                    style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2700&auto=format&fit=crop')">
+                                </div>
+                            </div>
+                        </article>
+                        <article class="project-item reveal-up">
+                            <div class="project-content">
+                                <span class="project-cat">Interiors</span>
+                                <h3>Urban Loft</h3>
+                                <p>Reimagining industrial spaces for contemporary urban living.</p>
+                                <a href="#" class="btn-text">View Case Study</a>
+                            </div>
+                            <div class="project-visual">
+                                <div class="visual-inner"
+                                    style="background-image: url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=2574&auto=format&fit=crop')">
+                                </div>
+                            </div>
+                        </article>
+                        <article class="project-item reveal-up">
+                            <div class="project-content">
+                                <span class="project-cat">Landscape</span>
+                                <h3>Forest Retreat</h3>
+                                <p>An eco-friendly sanctuary nestled deep within the natural landscape.</p>
+                                <a href="#" class="btn-text">View Case Study</a>
+                            </div>
+                            <div class="project-visual">
+                                <div class="visual-inner"
+                                    style="background-image: url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2653&auto=format&fit=crop')">
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Why Choose Us Section -->
+            <section id="why-us" class="why-us-section" data-bg-theme="marigold">
+                <div class="container">
+                    <h2 class="section-title reveal-text">Why Choose Us</h2>
+                </div>
+                <div class="scroll-container">
+                    <div class="scroll-track">
+                        <!-- Original Set -->
+                        <div class="scroll-item">
+                            <div class="icon-box">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                                </svg>
+                            </div>
+                            <h3>20 lakh+</h3>
+                            <p>catalogue products</p>
+                        </div>
+                        <div class="scroll-item">
+                            <div class="icon-box">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M12 20h9"></path>
+                                    <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                                </svg>
+                            </div>
+                            <h3>3,500+</h3>
+                            <p>designers</p>
+                        </div>
+                        <div class="scroll-item">
+                            <div class="icon-box">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                </svg>
+                            </div>
+                            <h3>Flat 10-year</h3>
+                            <p>warranty¹</p>
+                        </div>
+                        <div class="scroll-item">
+                            <div class="icon-box">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                            </div>
+                            <h3>45-day</h3>
+                            <p>move-in guarantee²</p>
+                        </div>
+                        <div class="scroll-item">
+                            <div class="icon-box">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                            </div>
+                            <h3>146</h3>
+                            <p>quality checks</p>
+                        </div>
+
+                        <!-- Duplicate Set for Infinite Scroll -->
+                        <div class="scroll-item">
+                            <div class="icon-box">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                                </svg>
+                            </div>
+                            <h3>20 lakh+</h3>
+                            <p>catalogue products</p>
+                        </div>
+                        <div class="scroll-item">
+                            <div class="icon-box">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M12 20h9"></path>
+                                    <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                                </svg>
+                            </div>
+                            <h3>3,500+</h3>
+                            <p>designers</p>
+                        </div>
+                        <div class="scroll-item">
+                            <div class="icon-box">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                </svg>
+                            </div>
+                            <h3>Flat 10-year</h3>
+                            <p>warranty¹</p>
+                        </div>
+                        <div class="scroll-item">
+                            <div class="icon-box">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                            </div>
+                            <h3>45-day</h3>
+                            <p>move-in guarantee²</p>
+                        </div>
+                        <div class="scroll-item">
+                            <div class="icon-box">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                            </div>
+                            <h3>146</h3>
+                            <p>quality checks</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="stories" class="stories-section" data-bg-theme="citrine">
+                <div class="container">
+                    <h2 class="section-title reveal-up">Studio Stories</h2>
+                    <div class="stories-grid">
+                        <a href="#" class="story-card reveal-up">
+                            <span class="date">Oct 24, 2024</span>
+                            <h4>The Future of Sustainable Materials in Architecture</h4>
+                        </a>
+                        <a href="#" class="story-card reveal-up delay-1">
+                            <span class="date">Sep 12, 2024</span>
+                            <h4>Designing for Community: A Roundtable Discussion</h4>
+                        </a>
+                        <a href="#" class="story-card reveal-up delay-2">
+                            <span class="date">Aug 05, 2024</span>
+                            <h4>Behind the Scenes: The Making of Urban Loft</h4>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="contact-section" data-bg-theme="sunset">
+                <div class="container">
+                    <div class="contact-wrapper reveal-up">
+                        <h2>Let's work together</h2>
+                        <p>Have a project in mind? We'd love to hear from you.</p>
+                        <a href="mailto:hello@archstudio.com" class="btn btn-primary btn-large">Get in Touch</a>
+
+                        <div class="contact-footer">
+                            <div class="col">
+                                <h5>Studio</h5>
+                                <p>THE CARVED SPACES<br>MANIKONDA, HYDERABAD</p>
+                            </div>
+                            <div class="col">
+                                <h5>Contact</h5>
+                                <p>thecarvedspaces@gmail.com<br>+91 9397979979</p>
+                            </div>
+                            <div class="col">
+                                <h5>Social</h5>
+                                <ul class="social-links">
+                                    <li><a href="#">Instagram</a></li>
+                                    <li><a href="#">LinkedIn</a></li>
+                                    <li><a href="#">Twitter</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="footer-bottom">
+                    <p>&copy; 2024 ARCH Studio.</p>
+                    <p>Designed with purpose.</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Project Explorer Overlay -->
+        <div id="project-explorer" class="project-explorer">
+            <button class="close-explorer" aria-label="Close">×</button>
+
+            <!-- Category View -->
+            <div id="category-view" class="explorer-view active">
+                <h2 id="explorer-title" class="explorer-title">Category Name</h2>
+                <div id="project-grid" class="explorer-grid">
+                    <!-- Projects injected here -->
+                </div>
+            </div>
+
+            <!-- Detail View -->
+            <div id="project-detail-view" class="explorer-view">
+                <button class="back-to-category" aria-label="Back">← Back</button>
+                <h2 id="project-title" class="explorer-title">Project Name</h2>
+                <div id="project-gallery" class="explorer-gallery">
+                    <!-- Images will be injected here -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
